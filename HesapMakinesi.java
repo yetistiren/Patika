@@ -29,7 +29,18 @@ public class Main {
                 System.out.println("Çarpma : " + (n1 * n2));
                 break;
             case 4:
-                System.out.println("Bölme  : " + (n1 / n2));
+                switch (n2)
+                {
+                    case 0:
+                        System.out.print("Bir sayı sıfıra bölünemez.");
+                        break;
+                    default:
+                        System.out.println("Bölme  : " + (n1 / n2));
+                        break;
+                }
+                break;
+            default:
+                System.out.println("Geçerli bir seçim yapmadınız.");
         }
 
     }

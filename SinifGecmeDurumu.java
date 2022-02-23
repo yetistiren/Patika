@@ -55,7 +55,7 @@ public class Main {
 
         ort = toplam / sayac;
 
-        System.out.println(ort > 55 ? "Tebrikler Sınıfı Geçtiniz !" : "Sınıfta kaldınız, seneye görüşmek üzere !");
+        System.out.println(ort >= 55 ? "Tebrikler Sınıfı Geçtiniz !" : "Sınıfta kaldınız, seneye görüşmek üzere !");
         System.out.println("Not Ortalamanız : " + ort);
 
     }
